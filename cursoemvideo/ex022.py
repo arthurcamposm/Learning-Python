@@ -1,0 +1,8 @@
+nome = input('Digite seu nome completo:').strip()
+up = nome.upper()
+lo = nome.lower()
+ql = nome.split()
+print(up)
+print(lo)
+print(f'O primeiro nome é {(ql[0])} e tem {len(ql[0])} letras.')
+print(f'Seu nome tem ao todo {len(nome) - nome.count(" ")} letras.')
